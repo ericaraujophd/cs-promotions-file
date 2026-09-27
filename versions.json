@@ -1,7 +1,7 @@
 {
-  "current": "1.6",
-  "built": "2026-09-27T01:16:32+00:00",
-  "commit": "0f6132a",
+  "current": "1.7",
+  "built": "2026-09-27T01:29:58+00:00",
+  "commit": "68cfba1",
   "versions": {
     "1.4": {
       "date": "23 September 2026",
@@ -88,6 +88,33 @@
         "CS-Tour-Card-2026-11-06-v1.6-cards.pdf",
         "CS-Tour-Card-2026-11-06-v1.6-strip.pdf",
         "CS-Tour-Card-2026-11-06-v1.6.pdf"
+      ]
+    },
+    "1.7": {
+      "date": "27 September 2026",
+      "summary": "The tour card stops being tied to a date.",
+      "bullets": [
+        "One card now, not one per Discovery Day. The route, the talking points and the two fixed facts about every tour are printed; the date, the slot, the co-guides and the group are blank lines to fill in on the day.",
+        "All three shapes carry the blanks: the page, the carry strip and the cards.",
+        "Nothing to rebuild before the next tour. Print the card you already have."
+      ],
+      "files": [
+        "01-CS-Folder-Insert-v1.7.pdf",
+        "02-CS-Flyer-v1.7.pdf",
+        "03-CS-Faculty-Sheet-v1.7.pdf",
+        "04-CS-Department-Cover-v1.7.pdf",
+        "05-CS-Department-What-You-Do-Here-v1.7.pdf",
+        "06-CS-Department-Education-v1.7.pdf",
+        "07-CS-Department-Back-v1.7.pdf",
+        "08-CS-BCS-Model-Program-v1.7.pdf",
+        "09-CS-Plus-Model-Program-v1.7.pdf",
+        "10-Data-Science-Model-Program-v1.7.pdf",
+        "CS-Discovery-Day-Folder-v1.7-PRINT.pdf",
+        "CS-Faculty-Sheet-v1.7.docx",
+        "CS-Flyer-v1.7.pdf",
+        "CS-Tour-Card-v1.7-cards.pdf",
+        "CS-Tour-Card-v1.7-strip.pdf",
+        "CS-Tour-Card-v1.7.pdf"
       ]
     }
   }
