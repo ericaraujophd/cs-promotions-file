@@ -1,7 +1,7 @@
 {
   "current": "1.6",
-  "built": "2026-09-25T17:45:23+00:00",
-  "commit": "d73c503",
+  "built": "2026-09-27T01:16:32+00:00",
+  "commit": "0f6132a",
   "versions": {
     "1.4": {
       "date": "23 September 2026",
@@ -55,15 +55,18 @@
       ]
     },
     "1.6": {
-      "date": "25 September 2026",
-      "summary": "Copy pass on the flyer and the folder insert, after the first Discovery Day.",
+      "date": "27 September 2026",
+      "summary": "A copy pass over the whole set after the first Discovery Day, and the words moved out of the layouts.",
       "bullets": [
-        "The three majors now carry their acronyms, BCS, BS in CS and BS in DS, in the opening sentence and on each heading.",
-        "The flyer's liberal arts sentence rewritten: graduates can write and communicate in addition to coding, and every professor brings their faith to bear on teaching and research.",
-        "Graduate destinations and the internship line reworded on the flyer.",
-        "The insert reads \"one sheet for each degree\", and opens the no-experience box with \"No previous experience in programming is needed!\".",
-        "Type on the insert enlarged across the page, so it reads from a table at arm's length.",
-        "The faculty sheet no longer names Discovery Day, so the set serves any recruiting event."
+        "The three majors carry their acronyms on the flyer: BCS, BS in CS and BS in DS.",
+        "The flyer says graduates can write and communicate in addition to coding, and that every professor brings their faith to bear on teaching and research.",
+        "The insert reads \"one sheet for each degree\" and opens its box with \"No previous experience in programming is needed!\". Its type is larger across the page.",
+        "The faculty sheet no longer names Discovery Day, so the set serves any recruiting event.",
+        "Department cover: nobody is \"handed off\", the doctorate list drops Waterloo, and the degree gives \"a breadth of knowledge as well as depth in your field\".",
+        "What you do here: internships become full-time jobs for some students, research is joined \"already as an undergraduate student\", the core is woven through the undergraduate experience, and the graduate school list gains Waterloo. Alumni who stayed at Calvin have their own sentence, with hymnary.org.",
+        "More than the code: the opening closes on \"the wisdom to know how to shape it\", and the six blocks are rearranged so both columns breathe.",
+        "The tour card for Discovery Day guides is built with the set now, in three shapes: one page, a carry strip, and cards to cut.",
+        "Every page's text now lives in content/, one plain file per page, so a sentence can be changed without opening a layout."
       ],
       "files": [
         "01-CS-Folder-Insert-v1.6.pdf",
