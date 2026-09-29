@@ -1,7 +1,7 @@
 {
   "current": "1.7",
-  "built": "2026-09-29T22:46:55+00:00",
-  "commit": "db321a0",
+  "built": "2026-09-29T22:56:16+00:00",
+  "commit": "a5ab6ed",
   "versions": {
     "1.4": {
       "date": "23 September 2026",
@@ -103,6 +103,8 @@
         "Every renderer now measures every element on the page, pictures included, against the page box before it writes a PDF, and fails if anything sticks out. A clipped photograph leaves no trace in a finished PDF, which is why page 7 shipped broken twice; this catches it while the browser can still say what it meant to draw.",
         "Data Science, on the Data Science Committee's reading: CS 375 joins CS 376 in the junior spring so the pair is taken together; DATA 385 appears twice at two hours each, junior spring and senior fall, because a four-hour section has never been offered; STAT 341, which runs every other spring, replaces STAT 343 as the default and sits in the sophomore spring; and no prerequisite is printed for a course whose prerequisite is already earlier on the same sheet. Still 124 hours, every term between 14 and 16.",
         "The three model programs carry Eric's own one-line descriptions at the top right, in place of the drafted ones.",
+        "The BCS and CS Plus sheets no longer print \"MATH 252 needs MATH 251\", by the same rule: MATH 251 is already earlier on both sheets. The only prerequisite still printed anywhere is CS 262's \"junior standing\", which is not a course on the page and so cannot be read off the schedule.",
+        "The publishing workflow is pinned to ubuntu-24.04 instead of ubuntu-latest, which GitHub moves to Ubuntu 26 on 19 October, and its four actions are on their current major versions.",
         "The faculty sheet's version no longer takes a line of the footer band to itself. With the date gone it rides the end of the address line.",
         "The download page offers the whole folder in both forms at the top, side by side: the copier file at finished size, and the same sixteen pages with the bleed for a commercial printer. Nobody has to scroll to learn the second one exists.",
         "One tour card now, not one per Discovery Day. The route, the talking points and the two fixed facts about every tour are printed; the date, the slot, the co-guides and the group are blank lines to fill in on the day. All three shapes carry the blanks, and nothing needs rebuilding before the next tour.",
