@@ -1,7 +1,7 @@
 {
   "current": "1.7",
-  "built": "2026-09-27T01:29:58+00:00",
-  "commit": "68cfba1",
+  "built": "2026-09-29T21:10:08+00:00",
+  "commit": "c8c0c0c",
   "versions": {
     "1.4": {
       "date": "23 September 2026",
@@ -91,12 +91,16 @@
       ]
     },
     "1.7": {
-      "date": "27 September 2026",
-      "summary": "The tour card stops being tied to a date.",
+      "date": "29 September 2026",
+      "summary": "A dateless tour card, copies for a commercial printer, a check that catches collisions, and a copy pass against a new writing rubric.",
       "bullets": [
-        "One card now, not one per Discovery Day. The route, the talking points and the two fixed facts about every tour are printed; the date, the slot, the co-guides and the group are blank lines to fill in on the day.",
-        "All three shapes carry the blanks: the page, the carry strip and the cards.",
-        "Nothing to rebuild before the next tour. Print the card you already have."
+        "The prose was read against a rubric for copy that reads as machine-written, and ten sentences were changed. The flyer names what students actually do with faculty instead of claiming tier-one equipment, and opens on Eric's own sentence about the three majors. The cover carries his paragraph on why technology is not neutral. Page 5 drops the entry-ticket line and leads with what employers want. Page 6 says you prove an algorithm works rather than hope it does, and names who reads the fourth-year project. Page 7 cuts an empty sentence about clubs and says what a mentor is actually for.",
+        "The rubric itself is in tools/ai-writing-rubric.md, with the eight tells, the scoring, and an explicit list of what is not a tell.",
+        "The download page offers the whole folder in both forms at the top, side by side: the copier file at finished size, and the same sixteen pages with the bleed for a commercial printer. Nobody has to scroll to learn the second one exists.",
+        "One tour card now, not one per Discovery Day. The route, the talking points and the two fixed facts about every tour are printed; the date, the slot, the co-guides and the group are blank lines to fill in on the day. All three shapes carry the blanks, and nothing needs rebuilding before the next tour.",
+        "New bleed copies for a commercial printer: the same pages at 9 by 11.5 inches, with a quarter inch of bleed on every side and crop marks at the corners. The office copier files are unchanged.",
+        "The version stamp has room on every page now. On two pages a paragraph had grown to within a few points of it and read as part of the text.",
+        "The build checks for collisions: anything printed on top of anything else, and any stamp with less than eight points of clearance, now fails the build instead of reaching print."
       ],
       "files": [
         "01-CS-Folder-Insert-v1.7.pdf",
@@ -109,9 +113,12 @@
         "08-CS-BCS-Model-Program-v1.7.pdf",
         "09-CS-Plus-Model-Program-v1.7.pdf",
         "10-Data-Science-Model-Program-v1.7.pdf",
+        "CS-Discovery-Day-Folder-v1.7-PRINT-BLEED.pdf",
         "CS-Discovery-Day-Folder-v1.7-PRINT.pdf",
         "CS-Faculty-Sheet-v1.7.docx",
+        "CS-Flyer-v1.7-BLEED.pdf",
         "CS-Flyer-v1.7.pdf",
+        "CS-Tour-Card-v1.7-BLEED.pdf",
         "CS-Tour-Card-v1.7-cards.pdf",
         "CS-Tour-Card-v1.7-strip.pdf",
         "CS-Tour-Card-v1.7.pdf"
