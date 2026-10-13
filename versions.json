@@ -1,7 +1,7 @@
 {
-  "current": "1.7",
-  "built": "2026-09-29T22:56:16+00:00",
-  "commit": "a5ab6ed",
+  "current": "1.8",
+  "built": "2026-10-13T18:28:03+00:00",
+  "commit": "28c8cbb",
   "versions": {
     "1.4": {
       "date": "23 September 2026",
@@ -132,6 +132,38 @@
         "CS-Tour-Card-v1.7-cards.pdf",
         "CS-Tour-Card-v1.7-strip.pdf",
         "CS-Tour-Card-v1.7.pdf"
+      ]
+    },
+    "1.8": {
+      "date": "13 October 2026",
+      "summary": "The bleed copies for a commercial printer, corrected after the printer's review. The pages themselves are unchanged from v1.7.",
+      "bullets": [
+        "The v1.7 bleed copies were wrong. The printer found white strips with a thin line down the middle, and a small colored box in each corner, where the color should have run off the page. The bands now carry the page's own color and photographs the full quarter inch past the edge, so a cut that wanders cannot show white.",
+        "The crop marks are gone. They sat inside the bleed, so they could show on a wandering cut and they printed on the blank backs.",
+        "Each bleed file records the finished 8.5 by 11 size inside it, so the printer's software knows where the cut goes and nothing is drawn on the sheet.",
+        "A new check, tools/check-bleed.py, reads the bleed itself and fails the build if a line of it is not a single color from the sheet edge to the trim. It catches both faults above, and a pale hairline along the right and bottom edges of the faculty sheet that the first fix still left.",
+        "Every page and filename reads v1.8. The office copier files are the v1.7 pages with the new stamp."
+      ],
+      "files": [
+        "01-CS-Folder-Insert-v1.8.pdf",
+        "02-CS-Flyer-v1.8.pdf",
+        "03-CS-Faculty-Sheet-v1.8.pdf",
+        "04-CS-Department-Cover-v1.8.pdf",
+        "05-CS-Department-What-You-Do-Here-v1.8.pdf",
+        "06-CS-Department-Education-v1.8.pdf",
+        "07-CS-Department-Back-v1.8.pdf",
+        "08-CS-BCS-Model-Program-v1.8.pdf",
+        "09-CS-Plus-Model-Program-v1.8.pdf",
+        "10-Data-Science-Model-Program-v1.8.pdf",
+        "CS-Discovery-Day-Folder-v1.8-PRINT-BLEED.pdf",
+        "CS-Discovery-Day-Folder-v1.8-PRINT.pdf",
+        "CS-Faculty-Sheet-v1.8.docx",
+        "CS-Flyer-v1.8-BLEED.pdf",
+        "CS-Flyer-v1.8.pdf",
+        "CS-Tour-Card-v1.8-BLEED.pdf",
+        "CS-Tour-Card-v1.8-cards.pdf",
+        "CS-Tour-Card-v1.8-strip.pdf",
+        "CS-Tour-Card-v1.8.pdf"
       ]
     }
   }
