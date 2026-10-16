@@ -1,7 +1,7 @@
 {
   "current": "1.9",
-  "built": "2026-10-16T15:48:56+00:00",
-  "commit": "7de49d9",
+  "built": "2026-10-16T16:34:43+00:00",
+  "commit": "0948766",
   "versions": {
     "1.4": {
       "date": "23 September 2026",
@@ -177,6 +177,10 @@
         "Girls Who Code replaces Women in Computing on More Than the Code, in the club list and in the conferences paragraph.",
         "Fernando Santos's origin line is off the faculty sheet, since no one else's was there.",
         "On the Data Science model program the Ethics elective (PHIL 205 or BUS 392) moves from Senior Fall to Senior Spring, because PHIL 205 is offered in the spring only. It swaps places with a plain Elective, so every term keeps its hours and the total stays 124.",
+        "MATH 251 and MATH 252 are half-semester courses, one after the other, so MATH 252 now sits in Freshman Spring beside MATH 251 on the BCS and CS Plus model programs, as the catalog's sample schedule has it. Health and Movement 1 moves to Sophomore Spring to keep the two terms at 16 and 15 hours, and the total stays 124. The two courses had been split across two years on the mistaken reading that they cannot share a term.",
+        "On all three model programs, the half-semester courses say which half they run in: MATH 251, CS 375 and DATA 385 in the first half, MATH 252, CS 376 and DATA 304 in the second, and the legend explains it. Checked against the Spring 2027 sections in Workday.",
+        "DATA 202 prints under its Workday title, Predictive Analytics, on all three model programs. The Data Science program's six hours of business electives are now called \"Business and Soft Skills elective\", the department's own name for that list.",
+        "The reviewer's guide no longer lists the MATH 251/252 and Data Science elective questions, which are answered, and states the current prerequisite rule. It points to the bleed copies instead of saying there are none.",
         "The department cover photograph is 12 pixels shorter and the Calvin Hackathon box has a \"Fun fact\" sub-bullet. Page 7's photograph is 20 pixels shorter and its opening paragraph is set at 15.5 pixels instead of 16, so the list under it is no longer covered by the picture."
       ],
       "files": [
