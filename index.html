@@ -1,9 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Calvin CS promotional material</title>
-<meta name="description" content="Printable recruiting material for the Calvin University
-Computer Science Department: the Discovery Day folder, the recruiting flyer, the model
-programs, and every past version.">
+<meta name="description" content="Printable recruiting material for the Calvin University Computer Science Department. It includes the Discovery Day folder, the recruiting flyer, the model programs and the tour card for guides.">
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#faf8f8;color:#1c1a1b;
@@ -40,7 +38,19 @@ a.btn.alt:hover{background:#fdf3f4}
 .old .d{color:#8a8083;font-size:14px;font-style:italic}
 .old ul{margin:8px 0 10px 18px;padding:0;color:#4a4245;font-size:15px}
 .old li{margin-bottom:3px}
-.old .links a{color:#8C2131;font-size:14.5px;margin-right:14px;white-space:nowrap}
+.old .links{display:flex;flex-wrap:wrap;gap:4px 14px}
+.old .links a{color:#8C2131;font-size:14.5px;white-space:nowrap}
+.nav{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px 20px;
+ font:600 13px/1.2 "Helvetica Neue",Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase}
+.nav a{color:#fff;text-decoration:none;border-bottom:2px solid #F3CD00;padding-bottom:3px}
+.nav a:hover{background:#6d1926}
+.tour{background:#fff;border:1px solid #e7dfe1;border-left:6px solid #F3CD00;
+ border-radius:8px;padding:18px 22px}
+.tour>p{margin:0 0 14px;color:#4a4245}
+.tour .small a{color:#8C2131}
+.more{padding:14px 16px;border:1px dashed #c9bcc0;border-radius:7px;color:#4a4245;
+ font-size:15px;margin-top:18px}
+.more a{color:#8C2131;font-weight:600}
 footer{border-top:3px solid #8C2131;margin-top:44px;padding:16px 24px 40px;
  color:#6b6265;font-size:13px}
 footer code{font-size:12.5px;color:#8a8083}
@@ -49,10 +59,10 @@ footer code{font-size:12.5px;color:#8a8083}
 <div class="band"><div class="wrap">
 <h1>Computer Science promotional material</h1>
 <p>Calvin University. Printable files for Discovery Days, visits and mailings.</p>
+<div class="nav"><a href="#print">What to print</a><a href="#tour">For tour guides</a><a href="#pieces">Each piece</a><a href="#printer">For a printer</a><a href="#previous">Earlier versions</a></div>
 </div></div>
 <main><div class="wrap">
-
-<h2>What to print</h2>
+<h2 id="print" style="margin-top:28px">What to print</h2>
 <div class="now">
   <div class="v">Current version 1.9 &middot; 16 October 2026</div>
   <div class="sum">The wording changes marked by hand on the printed v1.7 copy, applied to every page, and a "Fall 2026" stamp in place of the version number.</div>
@@ -61,62 +71,50 @@ footer code{font-size:12.5px;color:#8a8083}
 <a class="btn alt" href="v1.9/CS-Discovery-Day-Folder-v1.9-PRINT-BLEED.pdf">The whole folder, with bleed (PDF)</a>
 <a class="btn alt" href="v1.9/CS-Discovery-Day-Folder-v1.9-pages.zip">All pages separately (zip)</a>
 </div>
-  <div class="print"><b>Which of the two:</b> the first is the office copier file, Letter,
-  finished size, nothing to cut. The second is for a commercial printer: the same sixteen
-  pages on a larger sheet with a quarter inch of bleed, to be trimmed down.
-  Send a printer the second one and print the first one yourself.</div>
-  <div class="print"><b>Printing it:</b> duplex, flip on the <b>long</b> edge. Letter,
-  100 per cent, <i>fit to page</i> off. Print all sixteen pages, <b>including the blank ones</b>.
-  The blanks are deliberate: every handout is its own sheet with a blank back, so a family
-  taking one worksheet home does not find a different degree on the reverse. If the driver
-  skips blank pages, the pairing shifts.</div>
+  <div class="print">The first file is for the office copier. It is Letter size, finished,
+  with nothing to cut. The second is for a commercial printer. It has the same sixteen pages
+  on a larger sheet with a quarter inch of bleed, to be trimmed down. Send a printer the
+  second one and print the first one yourself.</div>
+  <div class="print">Print duplex, flipping on the <b>long</b> edge, on Letter at 100 percent
+  with <i>fit to page</i> off. Print all sixteen pages, <b>including the blank ones</b>.
+  Every handout is its own sheet with a blank back, so a family taking one worksheet home
+  does not find a different degree on the reverse. If the driver skips blank pages, the
+  pairing shifts.</div>
 </div>
 
-<h2>Each piece on its own</h2>
-<div class="grid">
+<h2 id="tour">For tour guides</h2><div class="tour"><p>The tour card is the script for the Computer Science tour. It prints the route, the talking points and two facts to mention on every tour. The date, the time slot, the co-guides and the group are blank lines to fill in by hand, so one card serves every tour and does not need reprinting for a new date.</p><div class="grid">
+<div class="card"><a href="v1.9/CS-Tour-Card-v1.9-strip.pdf">Carry strip</a><p>Two to a sheet, cut and pocket one</p></div>
+<div class="card"><a href="v1.9/CS-Tour-Card-v1.9-cards.pdf">Cards to cut</a><p>Four to a sheet, one stop per card</p></div>
+<div class="card"><a href="v1.9/CS-Tour-Card-v1.9.pdf">One page</a><p>The whole script on a single sheet</p></div>
+</div>
+<p class="small" style="margin:14px 0 0">A copy with bleed, for a commercial printer, is under <a href="#printer">For a printer</a>.</p>
+</div>
+<h2 id="pieces">Each piece on its own</h2><div class="grid">
 <div class="card"><a href="v1.9/01-CS-Folder-Insert-v1.9.pdf">Folder insert</a><p>What is in the folder, and where to go next</p></div>
 <div class="card"><a href="v1.9/02-CS-Flyer-v1.9.pdf">Recruiting flyer</a><p>The one-page overview of the department, also folder page 2</p></div>
 <div class="card"><a href="v1.9/03-CS-Faculty-Sheet-v1.9.pdf">Faculty</a><p>Who teaches here, what they research, how to reach them</p></div>
 <div class="card"><a href="v1.9/04-CS-Department-Cover-v1.9.pdf">Department, cover</a><p>The degrees, the accreditation, the four-year path</p></div>
 <div class="card"><a href="v1.9/05-CS-Department-What-You-Do-Here-v1.9.pdf">What you do here</a><p>Research, internships, the liberal arts core</p></div>
 <div class="card"><a href="v1.9/06-CS-Department-Education-v1.9.pdf">Education and coursework</a><p>Year by year, the hackathon, the senior project</p></div>
-<div class="card"><a href="v1.9/07-CS-Department-Back-v1.9.pdf">More than the code</a><p>Student organisations, mentoring, conferences</p></div>
+<div class="card"><a href="v1.9/07-CS-Department-Back-v1.9.pdf">More than the code</a><p>Student organizations, mentoring, conferences</p></div>
 <div class="card"><a href="v1.9/08-CS-BCS-Model-Program-v1.9.pdf">Model program, BCS</a><p>Semester by semester, the accredited major</p></div>
 <div class="card"><a href="v1.9/09-CS-Plus-Model-Program-v1.9.pdf">Model program, CS Plus</a><p>Semester by semester, with a second field</p></div>
 <div class="card"><a href="v1.9/10-Data-Science-Model-Program-v1.9.pdf">Model program, Data Science</a><p>Semester by semester, computing and statistics</p></div>
 <div class="card"><a href="v1.9/CS-Faculty-Sheet-v1.9.docx">Faculty sheet, editable</a><p>The Word original, for corrections</p></div>
 </div>
-<h2>Tour card, for whoever is guiding</h2><div class="grid">
-<div class="card"><a href="v1.9/CS-Tour-Card-v1.9-strip.pdf">Carry strip</a><p>Two to a sheet, cut and pocket one</p></div>
-<div class="card"><a href="v1.9/CS-Tour-Card-v1.9-cards.pdf">Cards to cut</a><p>Four to a sheet, one stop per card</p></div>
-<div class="card"><a href="v1.9/CS-Tour-Card-v1.9-BLEED.pdf">One page</a><p>The whole script on a single sheet</p></div>
+<h2 id="printer">For a commercial printer</h2><div class="print" style="margin-bottom:12px">These are the same pages with a quarter inch of <b>bleed</b> on every side. The color and photographs run past the edge, so a printer can print oversized and cut down to 8.5 by 11 without leaving a white sliver along a band or photograph. Do not use them on the office copier. The files above are the ones for that.</div><div class="grid">
+<div class="card"><a href="v1.9/CS-Discovery-Day-Folder-v1.9-PRINT-BLEED.pdf">The whole folder, with bleed</a><p>Sixteen pages at 9 by 11.5 inches</p></div>
+<div class="card"><a href="v1.9/CS-Flyer-v1.9-BLEED.pdf">Recruiting flyer, with bleed</a><p>One sheet at 9 by 11.5 inches</p></div>
+<div class="card"><a href="v1.9/CS-Tour-Card-v1.9-BLEED.pdf">Tour card, with bleed</a><p>One sheet at 9 by 11.5 inches</p></div>
 </div>
-<h2>For a commercial printer</h2><div class="print" style="margin-bottom:12px">These are the same pages with a quarter inch of <b>bleed</b> on every side, with the colour and photographs carried past the edge, so a printer can print oversized and cut down to 8.5 by 11 without leaving a white sliver along a band or a photograph. Do not use them on the office copier: the files above are the ones for that.</div><div class="grid">
-<div class="card"><a href="v1.9/CS-Discovery-Day-Folder-v1.9-PRINT-BLEED.pdf">The whole folder, with bleed</a><p>Sixteen pages at 9 by 11.5in</p></div>
-<div class="card"><a href="v1.9/CS-Flyer-v1.9-BLEED.pdf">Recruiting flyer, with bleed</a><p>One sheet at 9 by 11.5in</p></div>
-<div class="card"><a href="v1.9/CS-Tour-Card-v1.9-BLEED.pdf">Tour card, with bleed</a><p>One sheet at 9 by 11.5in</p></div>
-</div>
-<h2>Earlier versions</h2>
+<h2 id="previous">Earlier versions</h2>
 <div class="old"><h3>Version 1.8</h3><div class="d">13 October 2026. The bleed copies for a commercial printer, corrected after the printer's review. The pages themselves are unchanged from v1.7.</div>
 <ul><li>The v1.7 bleed copies were wrong. The printer found white strips with a thin line down the middle, and a small colored box in each corner, where the color should have run off the page. The bands now carry the page's own color and photographs the full quarter inch past the edge, so a cut that wanders cannot show white.</li><li>The crop marks are gone. They sat inside the bleed, so they could show on a wandering cut and they printed on the blank backs.</li><li>Each bleed file records the finished 8.5 by 11 size inside it, so the printer's software knows where the cut goes and nothing is drawn on the sheet.</li><li>A new check, tools/check-bleed.py, reads the bleed itself and fails the build if a line of it is not a single color from the sheet edge to the trim. It catches both faults above, and a pale hairline along the right and bottom edges of the faculty sheet that the first fix still left.</li><li>Every page and filename reads v1.8. The office copier files are the v1.7 pages with the new stamp.</li></ul>
-<div class="links"><a href="v1.8/CS-Discovery-Day-Folder-v1.8-PRINT.pdf">Whole folder (PDF)</a><a href="v1.8/CS-Discovery-Day-Folder-v1.8-pages.zip">All pages (zip)</a><a href="v1.8/CS-Flyer-v1.8.pdf">Flyer</a></div></div>
-<div class="old"><h3>Version 1.7</h3><div class="d">29 September 2026. A dateless tour card, copies for a commercial printer, a check that catches collisions, and a copy pass against a new writing rubric.</div>
-<ul><li>The prose was read against a rubric for copy that reads as machine-written, and ten sentences were changed. The flyer names what students actually do with faculty instead of claiming tier-one equipment, and opens on Eric's own sentence about the three majors. The cover carries his paragraph on why technology is not neutral. Page 5 drops the entry-ticket line and leads with what employers want. Page 6 says you prove an algorithm works rather than hope it does, and names who reads the fourth-year project. Page 7 cuts an empty sentence about clubs and says what a mentor is actually for.</li><li>The rubric itself is in tools/ai-writing-rubric.md, with the eight tells, the scoring, and an explicit list of what is not a tell.</li><li>No page carries a build date any more. Every stamp reads just the version, v1.7. The set is reprinted whenever a box runs out, and a date made a page that had not changed look stale; the download page is what says which version is current. The model programs still carry "2026-27 catalog", because that tells a family whether the course rows still apply.</li><li>The folder insert's footer was printing off the bottom of the sheet. The address line ran five points past the page edge and was cut through the middle, and it had been that way since the type on that page was enlarged for v1.6. The page's spacing was tightened to bring the footer back on, and its version stamp now measures from the bottom of the sheet so nothing above it can push it around.</li><li>Page 7's black footer band was sitting nineteen pixels past the bottom of the sheet, so the Calvin lockup inside it printed cut in half. The band is flush to the edge now, and the room came out of the maroon heading band and the gaps above the photograph, not out of the columns.</li><li>The build refuses a page whose text runs off the sheet or crowds the edge. The insert's own height guard had been measuring the wrong element and reporting the broken page as clean, so the check now reads the finished PDF instead of trusting the renderer.</li><li>Every renderer now measures every element on the page, pictures included, against the page box before it writes a PDF, and fails if anything sticks out. A clipped photograph leaves no trace in a finished PDF, which is why page 7 shipped broken twice; this catches it while the browser can still say what it meant to draw.</li><li>Data Science, on the Data Science Committee's reading: CS 375 joins CS 376 in the junior spring so the pair is taken together; DATA 385 appears twice at two hours each, junior spring and senior fall, because a four-hour section has never been offered; STAT 341, which runs every other spring, replaces STAT 343 as the default and sits in the sophomore spring; and no prerequisite is printed for a course whose prerequisite is already earlier on the same sheet. Still 124 hours, every term between 14 and 16.</li><li>The three model programs carry Eric's own one-line descriptions at the top right, in place of the drafted ones.</li><li>The BCS and CS Plus sheets no longer print "MATH 252 needs MATH 251", by the same rule: MATH 251 is already earlier on both sheets. The only prerequisite still printed anywhere is CS 262's "junior standing", which is not a course on the page and so cannot be read off the schedule.</li><li>The publishing workflow is pinned to ubuntu-24.04 instead of ubuntu-latest, which GitHub moves to Ubuntu 26 on 19 October, and its four actions are on their current major versions.</li><li>The faculty sheet's version no longer takes a line of the footer band to itself. With the date gone it rides the end of the address line.</li><li>The download page offers the whole folder in both forms at the top, side by side: the copier file at finished size, and the same sixteen pages with the bleed for a commercial printer. Nobody has to scroll to learn the second one exists.</li><li>One tour card now, not one per Discovery Day. The route, the talking points and the two fixed facts about every tour are printed; the date, the slot, the co-guides and the group are blank lines to fill in on the day. All three shapes carry the blanks, and nothing needs rebuilding before the next tour.</li><li>New bleed copies for a commercial printer: the same pages at 9 by 11.5 inches, with a quarter inch of bleed on every side and crop marks at the corners. The office copier files are unchanged.</li><li>The version stamp has room on every page now. On two pages a paragraph had grown to within a few points of it and read as part of the text.</li><li>The build checks for collisions: anything printed on top of anything else, and any stamp with less than eight points of clearance, now fails the build instead of reaching print.</li></ul>
-<div class="links"><a href="v1.7/CS-Discovery-Day-Folder-v1.7-PRINT.pdf">Whole folder (PDF)</a><a href="v1.7/CS-Discovery-Day-Folder-v1.7-pages.zip">All pages (zip)</a><a href="v1.7/CS-Flyer-v1.7.pdf">Flyer</a></div></div>
-<div class="old"><h3>Version 1.6</h3><div class="d">27 September 2026. A copy pass over the whole set after the first Discovery Day, and the words moved out of the layouts.</div>
-<ul><li>The three majors carry their acronyms on the flyer: BCS, BS in CS and BS in DS.</li><li>The flyer says graduates can write and communicate in addition to coding, and that every professor brings their faith to bear on teaching and research.</li><li>The insert reads "one sheet for each degree" and opens its box with "No previous experience in programming is needed!". Its type is larger across the page.</li><li>The faculty sheet no longer names Discovery Day, so the set serves any recruiting event.</li><li>Department cover: nobody is "handed off", the doctorate list drops Waterloo, and the degree gives "a breadth of knowledge as well as depth in your field".</li><li>What you do here: internships become full-time jobs for some students, research is joined "already as an undergraduate student", the core is woven through the undergraduate experience, and the graduate school list gains Waterloo. Alumni who stayed at Calvin have their own sentence, with hymnary.org.</li><li>More than the code: the opening closes on "the wisdom to know how to shape it", and the six blocks are rearranged so both columns breathe.</li><li>The tour card for Discovery Day guides is built with the set now, in three shapes: one page, a carry strip, and cards to cut.</li><li>Every page's text now lives in content/, one plain file per page, so a sentence can be changed without opening a layout.</li></ul>
-<div class="links"><a href="v1.6/CS-Discovery-Day-Folder-v1.6-PRINT.pdf">Whole folder (PDF)</a><a href="v1.6/CS-Discovery-Day-Folder-v1.6-pages.zip">All pages (zip)</a><a href="v1.6/CS-Flyer-v1.6.pdf">Flyer</a></div></div>
-<div class="old"><h3>Version 1.5</h3><div class="d">24 September 2026. The first build after a page-by-page review against colleagues' comments.</div>
-<ul><li>The recruiting flyer became page 2 of the folder.</li><li>ABET's own mark is on the department cover, and the accreditation is named in the four-year paragraph.</li><li>The department back panel was rebuilt around student organisations, mentoring, conferences and advice for high school, with a Grace Hopper photograph across the foot.</li><li>The three model programs were rebuilt for a high schooler rather than an adviser: one line per course, larger type, prerequisites, and no major, core and elective apparatus.</li><li>Faculty sheet corrections: Chris Wieringa's office, Eric Araújo's degrees, Rocky Chang's card, Adam Vedra out and Michael Poff in.</li><li>Every page carries its version and build date. No page says "for review".</li></ul>
-<div class="links"><a href="v1.5/CS-Discovery-Day-Folder-v1.5-PRINT.pdf">Whole folder (PDF)</a><a href="v1.5/CS-Discovery-Day-Folder-v1.5-pages.zip">All pages (zip)</a><a href="v1.5/CS-Flyer-v1.5.pdf">Flyer</a></div></div>
-<div class="old"><h3>Version 1.4</h3><div class="d">23 September 2026. The Data Science worksheet corrected on Stacy DeRuiter's reading of the real offerings.</div>
-<ul><li>STAT 343 moved to the junior fall, the first fall after its prerequisite MATH 255.</li><li>STAT 245 moved out of a spring term it is not offered in.</li><li>Two rows moved the other way so every term still lands between 14 and 16 hours. Totals untouched.</li></ul>
-<div class="links"><a href="v1.4/CS-Discovery-Day-Folder-v1.4-PRINT.pdf">Whole folder (PDF)</a><a href="v1.4/CS-Discovery-Day-Folder-v1.4-pages.zip">All pages (zip)</a><a href="v1.4/CS-Flyer-v1.4.pdf">Flyer</a></div></div>
-
+<div class="links"><a href="v1.8/CS-Discovery-Day-Folder-v1.8-PRINT.pdf">Whole folder (PDF)</a><a href="v1.8/CS-Discovery-Day-Folder-v1.8-PRINT-BLEED.pdf">With bleed (PDF)</a><a href="v1.8/CS-Discovery-Day-Folder-v1.8-pages.zip">All pages (zip)</a><a href="v1.8/CS-Flyer-v1.8.pdf">Flyer</a><a href="v1.8/CS-Tour-Card-v1.8.pdf">Tour card</a></div></div>
+<div class="more">Versions 1.4 to 1.7 are on a separate page, with the same kinds of download links. <a href="https://ericaraujo.com/cs-promotions-archive/">Older versions of the promotional material</a></div>
 </div></main>
 <footer><div class="wrap">
-Built 16 October 2026 from the department's source repository.
-<code>version 1.9 &middot; commit 0948766</code><br>
-Questions, corrections and anything that looks wrong: Eric Ara&uacute;jo,
-Computer Science Department.
+Built 6 November 2026 from the department's source repository.
+<code>version 1.9 &middot; commit 838cd45</code><br>
+For questions or corrections, contact Eric Ara&uacute;jo in the Computer Science Department.
 </div></footer></body></html>
